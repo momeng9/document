@@ -1,0 +1,6 @@
+时间格式化插件 day.js  moment   
+
+//npm install dayjs --save 安装轻量级日期
+//全局引入日期格式  VUE
+import dayjs from 'dayjs'
+Vue.prototype.dayjs = dayjs

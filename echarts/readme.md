@@ -1,0 +1,2 @@
+# tooltip问题
+在使用tooltip的时候 如果鼠标去显示tooltip后 缩小界面 会出现在前面的位置留下一个隐藏的tooltip 这样会造成内容超出 效果就是右边存在空白区域 把DIV设置为overflow: hidden即可解决

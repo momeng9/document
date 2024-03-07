@@ -1,0 +1,16 @@
+vue create 项目名称
+
+选择LESS  选择路由  
+ 
+已经设置了standrad_VUE 为标准的
+
+
+npm install xlsx   
+用来安装excel插件 直接将import XLSX from 'xlsx'改为import * as XLSX from 'xlsx/xlsx.mjs'即可
+
+安装饿了么
+//npm i element-ui -S 
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
+
