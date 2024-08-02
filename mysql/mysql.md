@@ -2,7 +2,7 @@
 ## 1 下载安装包 -- 免安装程序包
     --  https://www.mysql.com/
 
-## 2 解压文件 并安装mysql服务
+## 2 解压文件 并安装mysql服务  注意是在bin文件夹下执行
     --  mysqld --install
 ## 3 在根目录创建一个my.ini配置文件
     [mysqld]
@@ -41,9 +41,9 @@
 ## 6 登录mysql
     -- mysql -u root -p
 ## 7 修改密码
-    --ALTER USER ‘root’@‘localhost’ IDENTIFIED BY ‘123456’;
-    --alter user ‘root’@‘localhost’ identified with 
-    mysql_native_password by ‘root’;
+    --ALTER USER 'root'@'localhost' IDENTIFIED BY '123456';
+    --alter user 'root'@'localhost' identified with 
+    mysql_native_password by 'root';
 
 ## 8 环境配置
 ### 1 系统变量添加
