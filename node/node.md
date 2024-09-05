@@ -12,10 +12,12 @@ npm install xlsx
 用来安装excel插件 直接将import XLSX from 'xlsx'改为import * as XLSX from 'xlsx/xlsx.mjs'即可
 
 安装饿了么
+``` javaScript
 //npm i element-ui -S 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
+```
 
 
 
